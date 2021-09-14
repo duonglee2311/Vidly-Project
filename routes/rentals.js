@@ -31,6 +31,7 @@ router.post('/', auth.isAuth, async function(req, res){
       isGold: customer.isGold,
     },
     movie: {
+      _id: movie._id,
       title: movie.title,
       dailyRentalRate: movie.dailyRentalRate,
     }
