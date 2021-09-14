@@ -1,0 +1,4 @@
+{
+  "jwtSecretKey": "vidly_secretKey",
+  "db": "vidly_db"
+}
